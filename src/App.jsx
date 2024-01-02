@@ -4,6 +4,7 @@ const App = () => {
       <section>Hero</section>
       <section>Parallax</section>
       <section>Services</section>
+      <section>Parallax</section>
     </div>
   );
 };
