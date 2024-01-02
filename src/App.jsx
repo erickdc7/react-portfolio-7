@@ -6,7 +6,7 @@ const App = () => {
       <section>Services</section>
       <section>Parallax</section>
       <section>Portfolio1</section>
-      <section>Portfolio1</section>
+      <section>Portfolio2</section>
     </div>
   );
 };
