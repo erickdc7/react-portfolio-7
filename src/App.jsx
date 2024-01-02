@@ -3,6 +3,7 @@ const App = () => {
     <div>
       <section>Hero</section>
       <section>Parallax</section>
+      <section>Services</section>
     </div>
   );
 };
