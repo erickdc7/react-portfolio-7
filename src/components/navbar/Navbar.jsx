@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="navbar">
       {/* Sidebar */}
       <div className="wrapper">
-        <span></span>
+        <span>Lama Dev</span>
       </div>
     </div>
   );
