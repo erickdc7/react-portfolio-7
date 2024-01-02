@@ -2,7 +2,9 @@ import "./navbar.scss"
 
 const Navbar = () => {
   return (
-    <div className="navbar">Navbar</div>
+    <div className="navbar">
+        {/* Sidebar */}
+    </div>
   )
 }
 
