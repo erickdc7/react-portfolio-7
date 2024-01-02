@@ -5,7 +5,7 @@ const App = () => {
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax</section>
-      <section>Portfolio</section>
+      <section>Portfolio1</section>
     </div>
   );
 };
