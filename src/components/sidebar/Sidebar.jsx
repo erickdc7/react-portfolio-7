@@ -1,4 +1,5 @@
 import "./sidebar.scss"
+import ToggleButton from "./toggleButton/toggleButton"
 
 const Sidebar = () => {
     return (
@@ -6,6 +7,7 @@ const Sidebar = () => {
             <div className="bg">
                 Links
             </div>
+            <ToggleButton />
         </div>
     )
 }
