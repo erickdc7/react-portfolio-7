@@ -1,3 +1,4 @@
+import Links from "./links/Links"
 import "./sidebar.scss"
 import ToggleButton from "./toggleButton/toggleButton"
 
@@ -5,7 +6,7 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="bg">
-                Links
+                <Links />
             </div>
             <ToggleButton />
         </div>
