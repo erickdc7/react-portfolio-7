@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="wrapper">
         <span>Lama Dev</span>
         <div className="social">
-          
+          <a href="#"></a>
         </div>
       </div>
     </div>
