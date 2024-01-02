@@ -7,11 +7,18 @@ import { motion } from "framer-motion"
 const Sidebar = () => {
     const [open, setOpen] = useState(false)
 
+    const variants = {
+
+    }
+
     return (
-        <motion.div className="sidebar">
-            <div className="bg">
+        <motion.div
+            className="sidebar"
+            animate={open ? "open" : "closed"}
+        >
+            <motion.div className="bg" variants={variants}>
                 <Links />
-            </div>
+            </motion.div>
             <ToggleButton setOpen={setOpen} />
         </motion.div>
     )
