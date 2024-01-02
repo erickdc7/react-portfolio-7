@@ -1,4 +1,4 @@
-const ToggleButton = () => {
+const ToggleButton = ({ setOpen }) => {
     return (
         <button>
             button
