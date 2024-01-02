@@ -1,6 +1,6 @@
 const ToggleButton = ({ setOpen }) => {
     return (
-        <button>
+        <button onClick={() => setOpen((prev) => !prev)}>
             button
         </button>
     )
