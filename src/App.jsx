@@ -1,6 +1,8 @@
 const App = () => {
   return (
-    <div>Hello World</div>
+    <div>
+      <section></section>
+    </div>
   );
 };
 
