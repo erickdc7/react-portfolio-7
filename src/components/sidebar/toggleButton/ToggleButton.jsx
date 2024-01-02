@@ -1,7 +1,7 @@
-const toggleButton = () => {
+const ToggleButton = () => {
     return (
         <div>toggleButton</div>
     )
 }
 
-export default toggleButton
+export default ToggleButton
