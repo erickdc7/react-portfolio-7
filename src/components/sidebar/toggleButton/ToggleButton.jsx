@@ -1,6 +1,6 @@
 const ToggleButton = () => {
     return (
-        <div>toggleButton</div>
+        <button>toggleButton</button>
     )
 }
 
