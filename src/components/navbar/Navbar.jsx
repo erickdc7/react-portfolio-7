@@ -6,6 +6,9 @@ const Navbar = () => {
       {/* Sidebar */}
       <div className="wrapper">
         <span>Lama Dev</span>
+        <div className="social">
+          
+        </div>
       </div>
     </div>
   );
