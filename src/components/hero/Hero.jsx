@@ -6,6 +6,10 @@ const Hero = () => {
             <div className="textContainer">
                 <h2>HARVEY TYLER</h2>
                 <h1>Web developer and UI designer</h1>
+
+                <div className="buttons">
+
+                </div>
             </div>
             <div className="imageContainer">
                 <img src="/hero.png" alt="" />
