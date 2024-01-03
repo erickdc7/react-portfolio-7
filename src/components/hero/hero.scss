@@ -52,4 +52,12 @@
         top: 0;
         right: 0;
     }
+
+    .slidingTextContainer {
+        position: absolute;
+        font-size: 50vh;
+        bottom: -120px;
+        white-space: nowrap;
+        color: #ffffff09;
+    }
 }
