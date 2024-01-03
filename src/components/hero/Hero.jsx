@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
 
             <div className="slidingTextContainer">
-
+                Writer Content Creator Influencer
             </div>
 
             <div className="imageContainer">
