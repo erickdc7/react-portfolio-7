@@ -11,6 +11,8 @@ const Hero = () => {
                     <button>See the Latest Works</button>
                     <button>Contact Me</button>
                 </div>
+
+                <img src="/scroll.png" alt="" />
             </div>
 
             <div className="imageContainer">
