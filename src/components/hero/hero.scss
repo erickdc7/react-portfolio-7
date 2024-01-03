@@ -8,6 +8,14 @@
         max-width: 1024px;
         height: 100%;
         margin: auto;
+
+        .textContainer {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+        }
     }
 
     .imageContainer {
