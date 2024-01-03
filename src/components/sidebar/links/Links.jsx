@@ -24,7 +24,10 @@ const Links = () => {
     ]
 
     return (
-        <motion.div className="links">
+        <motion.div
+            className="links"
+            variants={variants}
+        >
             {
                 items.map(item => (
                     <a href={`#${item}`} key={item}>
