@@ -14,6 +14,17 @@ const variants = {
     }
 }
 
+const itemVariants = {
+    open: {
+        y: 0,
+        opacity: 1,
+    },
+    close: {
+        y: 50,
+        opacity: 0,
+    }
+}
+
 const Links = () => {
     const items = [
         "Homepage",
