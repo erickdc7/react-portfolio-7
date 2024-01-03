@@ -3,13 +3,13 @@ import { motion } from "framer-motion"
 const variants = {
     open: {
         transition: {
-            staggeredChildren: 0.1
+            staggerChildren: 0.1
         }
     },
-    close: {
+    closed: {
         transition: {
-            staggeredChildren: 0.05,
-            staggeredDirection: -1
+            staggerChildren: 0.05,
+            staggerDirection: -1
         }
     }
 }
@@ -19,7 +19,7 @@ const itemVariants = {
         y: 0,
         opacity: 1,
     },
-    close: {
+    closed: {
         y: 50,
         opacity: 0,
     }
