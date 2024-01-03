@@ -17,6 +17,10 @@ const Hero = () => {
                 </div>
             </div>
 
+            <div className="slidingTextContainer">
+
+            </div>
+
             <div className="imageContainer">
                 <img src="/hero.png" alt="" />
             </div>
