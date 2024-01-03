@@ -41,7 +41,11 @@ const Links = () => {
         >
             {
                 items.map(item => (
-                    <motion.a href={`#${item}`} key={item}>
+                    <motion.a
+                        href={`#${item}`}
+                        key={item}
+                        variants={itemVariants}
+                    >
                         {item}
                     </motion.a>
                 ))
