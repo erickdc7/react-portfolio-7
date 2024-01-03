@@ -2,7 +2,11 @@ import "./hero.scss"
 
 const Hero = () => {
     return (
-        <div className="hero">Hero</div>
+        <div className="hero">
+            <div className="imageContainer">
+
+            </div>
+        </div>
     )
 }
 
