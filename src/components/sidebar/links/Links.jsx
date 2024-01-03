@@ -1,3 +1,17 @@
+const variants = {
+    open: {
+        transition: {
+            staggeredChildren: 0.1
+        }
+    },
+    close: {
+        transition: {
+            staggeredChildren: 0.05,
+            staggeredDirection: -1
+        }
+    }
+}
+
 const Links = () => {
     const items = [
         "Homepage",
