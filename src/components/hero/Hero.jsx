@@ -9,6 +9,7 @@ const Hero = () => {
 
                 <div className="buttons">
                     <button>See the Latest Works</button>
+                    <button>Contact Me</button>
                 </div>
             </div>
             <div className="imageContainer">
