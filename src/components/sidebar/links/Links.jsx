@@ -24,7 +24,7 @@ const Links = () => {
     ]
 
     return (
-        <div className="links">
+        <motion.div className="links">
             {
                 items.map(item => (
                     <a href={`#${item}`} key={item}>
@@ -32,7 +32,7 @@ const Links = () => {
                     </a>
                 ))
             }
-        </div>
+        </motion.div>
     )
 }
 
