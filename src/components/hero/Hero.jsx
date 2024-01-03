@@ -12,6 +12,7 @@ const Hero = () => {
                     <button>Contact Me</button>
                 </div>
             </div>
+
             <div className="imageContainer">
                 <img src="/hero.png" alt="" />
             </div>
