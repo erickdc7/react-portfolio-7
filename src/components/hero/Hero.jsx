@@ -35,7 +35,7 @@ const Hero = () => {
                         className="buttons"
                         variants={textVariants}
                     >
-                        <motion.button>See the Latest Works</motion.button>
+                        <motion.button variants={textVariants}>See the Latest Works</motion.button>
                         <button>Contact Me</button>
                     </motion.div>
 
