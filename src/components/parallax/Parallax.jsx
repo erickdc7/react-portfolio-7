@@ -9,6 +9,7 @@ const Parallax = ({ type }) => {
 
             <div className="mountains"></div>
             <div className="planets"></div>
+            <div className="stars"></div>
         </div>
     )
 }
