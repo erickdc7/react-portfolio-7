@@ -24,7 +24,7 @@ const Hero = () => {
                     className="textContainer"
                     variants={textVariants}
                 >
-                    <h2>HARVEY TYLER</h2>
+                    <motion.h2>HARVEY TYLER</motion.h2>
                     <h1>Web developer and UI designer</h1>
 
                     <div className="buttons">
