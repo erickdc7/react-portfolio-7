@@ -43,7 +43,7 @@ const Hero = () => {
                         </motion.button>
                     </motion.div>
 
-                    <img src="/scroll.png" alt="" />
+                    <motion.img src="/scroll.png" alt="" />
                 </motion.div>
             </div>
 
