@@ -20,7 +20,10 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="wrapper">
-                <motion.div className="textContainer">
+                <motion.div
+                    className="textContainer"
+                    variants={textVariants}
+                >
                     <h2>HARVEY TYLER</h2>
                     <h1>Web developer and UI designer</h1>
 
