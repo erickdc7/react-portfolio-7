@@ -1,6 +1,6 @@
 import "./parallax.scss"
 
-const Parallax = () => {
+const Parallax = ({ type }) => {
     return (
         <div className="parallax">Parallax</div>
     )
