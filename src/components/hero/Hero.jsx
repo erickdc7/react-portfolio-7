@@ -43,7 +43,11 @@ const Hero = () => {
                         </motion.button>
                     </motion.div>
 
-                    <motion.img src="/scroll.png" alt="" />
+                    <motion.img
+                        src="/scroll.png"
+                        alt=""
+                        variants={textVariants}
+                    />
                 </motion.div>
             </div>
 
