@@ -31,10 +31,10 @@ const Hero = () => {
                         Web developer and UI designer
                     </motion.h1>
 
-                    <div className="buttons">
+                    <motion.div className="buttons">
                         <button>See the Latest Works</button>
                         <button>Contact Me</button>
-                    </div>
+                    </motion.div>
 
                     <img src="/scroll.png" alt="" />
                 </motion.div>
