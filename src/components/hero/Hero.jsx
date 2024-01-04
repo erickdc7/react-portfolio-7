@@ -23,6 +23,8 @@ const Hero = () => {
                 <motion.div
                     className="textContainer"
                     variants={textVariants}
+                    initial="initial"
+                    animate="animate"
                 >
                     <motion.h2 variants={textVariants}>
                         HARVEY TYLER
