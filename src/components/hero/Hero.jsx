@@ -36,7 +36,7 @@ const Hero = () => {
                         variants={textVariants}
                     >
                         <motion.button variants={textVariants}>See the Latest Works</motion.button>
-                        <button>Contact Me</button>
+                        <motion.button>Contact Me</motion.button>
                     </motion.div>
 
                     <img src="/scroll.png" alt="" />
