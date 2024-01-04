@@ -31,7 +31,10 @@ const Hero = () => {
                         Web developer and UI designer
                     </motion.h1>
 
-                    <motion.div className="buttons">
+                    <motion.div
+                        className="buttons"
+                        variants={textVariants}
+                    >
                         <button>See the Latest Works</button>
                         <button>Contact Me</button>
                     </motion.div>
