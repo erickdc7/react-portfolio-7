@@ -13,6 +13,14 @@ const textVariants = {
             duration: 1,
             staggerChildren: 0.1,
         }
+    },
+    scrollButton: {
+        opacity: 0,
+        y: 10,
+        transition: {
+            duration: 2,
+            repeat: Infinity
+        }
     }
 }
 
