@@ -21,10 +21,10 @@ const Services = () => {
                 </div>
 
                 <div className="title">
-                    <img src="/people.webp" alt="" />
                     <h1>
                         <b>For your</b> Business
                     </h1>
+                    <button>WHAT WE DO?</button>
                 </div>
             </motion.div>
 
