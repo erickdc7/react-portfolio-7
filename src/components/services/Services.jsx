@@ -1,4 +1,5 @@
 import "./services.scss"
+import { motion } from "framer-motion"
 
 const Services = () => {
     return (
