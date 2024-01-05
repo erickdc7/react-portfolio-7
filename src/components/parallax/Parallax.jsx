@@ -15,9 +15,9 @@ const Parallax = ({ type }) => {
                 {type === "services" ? "What We Do?" : "What We Did?"}
             </motion.h1>
 
-            <div className="mountains"></div>
-            <div className="planets"></div>
-            <div className="stars"></div>
+            <motion.div className="mountains"></motion.div>
+            <motion.div className="planets"></motion.div>
+            <motion.div className="stars"></motion.div>
         </div>
     )
 }
