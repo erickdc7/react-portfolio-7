@@ -2,7 +2,9 @@ import "./services.scss"
 
 const Services = () => {
     return (
-        <div className="services">Services</div>
+        <div className="services">
+            <div className="textContainer"></div>
+        </div>
     )
 }
 
