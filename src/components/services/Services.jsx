@@ -12,7 +12,9 @@ const Services = () => {
                 <hr />
             </motion.div>
 
-            <motion.div className="titleContainer"></motion.div>
+            <motion.div className="titleContainer">
+                <div className="title"></div>
+            </motion.div>
 
             <motion.div className="listContainer"></motion.div>
         </motion.div>
