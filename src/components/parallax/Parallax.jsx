@@ -6,6 +6,7 @@ const Parallax = ({ type }) => {
     const ref = useRef()
 
     const { scrollYProgress } = useScroll({
+        target: ref
     })
 
     return (
