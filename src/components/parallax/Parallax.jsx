@@ -6,7 +6,8 @@ const Parallax = ({ type }) => {
     const ref = useRef()
 
     const { scrollYProgress } = useScroll({
-        target: ref
+        target: ref,
+        offset: ["start start", "end start"]
     })
 
     const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"])
