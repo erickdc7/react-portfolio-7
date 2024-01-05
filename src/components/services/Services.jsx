@@ -16,7 +16,14 @@ const Services = () => {
                 <div className="title">
                     <img src="/people.webp" alt="" />
                     <h1>
-                        <b>Unique<br /> Ideas</b>
+                        <b>Unique</b> Ideas
+                    </h1>
+                </div>
+
+                <div className="title">
+                    <img src="/people.webp" alt="" />
+                    <h1>
+                        <b>For your</b> Business
                     </h1>
                 </div>
             </motion.div>
