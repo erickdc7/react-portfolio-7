@@ -5,6 +5,7 @@ const Services = () => {
         <div className="services">
             <div className="textContainer"></div>
             <div className="titleContainer"></div>
+            <div className="listContainer"></div>
         </div>
     )
 }
