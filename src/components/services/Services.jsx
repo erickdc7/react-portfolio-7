@@ -13,7 +13,9 @@ const Services = () => {
             </motion.div>
 
             <motion.div className="titleContainer">
-                <div className="title"></div>
+                <div className="title">
+                    <img src="/people.webp" alt="" />
+                </div>
             </motion.div>
 
             <motion.div className="listContainer"></motion.div>
