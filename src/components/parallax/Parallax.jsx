@@ -11,6 +11,7 @@ const Parallax = ({ type }) => {
     return (
         <div
             className="parallax"
+            ref={ref}
             style={{
                 background: type === "services"
                     ? "linear-gradient(180deg,#111132,#0c0c1d)"
