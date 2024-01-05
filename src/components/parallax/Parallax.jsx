@@ -2,6 +2,9 @@ import "./parallax.scss"
 import { motion, useScroll } from "framer-motion"
 
 const Parallax = ({ type }) => {
+    const { scrollYProgress } = useScroll({
+    })
+
     return (
         <div
             className="parallax"
