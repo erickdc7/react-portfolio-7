@@ -3,6 +3,8 @@ import { useRef } from "react"
 import { motion, useScroll } from "framer-motion"
 
 const Parallax = ({ type }) => {
+    const ref = useRef()
+
     const { scrollYProgress } = useScroll({
     })
 
