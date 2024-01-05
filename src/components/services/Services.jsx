@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 const Services = () => {
     return (
-        <div className="services">
+        <motion.div className="services">
             <div className="textContainer">
                 <p>
                     I focus on helping your brand grow <br />
@@ -15,7 +15,7 @@ const Services = () => {
             <div className="titleContainer"></div>
 
             <div className="listContainer"></div>
-        </div>
+        </motion.div>
     )
 }
 
