@@ -4,7 +4,10 @@ const Services = () => {
     return (
         <div className="services">
             <div className="textContainer">
-                <p>I focus on helping your brand grow and move forward</p>
+                <p>
+                    I focus on helping your brand grow <br />
+                    and move forward
+                </p>
                 <hr />
             </div>
 
