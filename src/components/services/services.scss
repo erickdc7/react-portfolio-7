@@ -64,6 +64,8 @@
     .listContainer {
         flex: 2;
         display: flex;
+        max-width: 1024px;
+        margin: auto;
 
         .box {
             padding: 50px;
