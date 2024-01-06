@@ -5,6 +5,10 @@
     flex-direction: column;
     justify-content: space-between;
 
+    .textContainer {
+        flex: 1;
+    }
+
     .titleContainer {
         .title {
             img {
