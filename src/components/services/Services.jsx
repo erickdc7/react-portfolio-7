@@ -36,17 +36,17 @@ const Services = () => {
                 </motion.div>
                 <motion.div className="box">
                     <h2>Branding</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui odit alias asperiores quibusdam totam consequuntur? Nesciunt velit iste at!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestias molestiae assumenda deserunt consectetur. Tempora maiores maxime voluptatem suscipit ea.</p>
                     <button>Go</button>
                 </motion.div>
                 <motion.div className="box">
                     <h2>Branding</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui odit alias asperiores quibusdam totam consequuntur? Nesciunt velit iste at!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas delectus quo doloribus. Animi explicabo dicta expedita cupiditate rerum sequi sit.</p>
                     <button>Go</button>
                 </motion.div>
                 <motion.div className="box">
                     <h2>Branding</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui odit alias asperiores quibusdam totam consequuntur? Nesciunt velit iste at!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius non ipsam et nihil esse natus, voluptas voluptatem dicta ducimus! Officiis.</p>
                     <button>Go</button>
                 </motion.div>
             </motion.div>
