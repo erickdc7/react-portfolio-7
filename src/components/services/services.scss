@@ -73,6 +73,13 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+
+            button {
+                padding: 10px;
+                background-color: orange;
+                border: none;
+                cursor: pointer;
+            }
         }
     }
 }
