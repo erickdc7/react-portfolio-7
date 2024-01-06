@@ -54,7 +54,7 @@ const Services = () => {
 
                 <div className="title">
                     <h1>
-                        <motion.b>
+                        <motion.b whileHover={{ color: "orange" }}>
                             For your
                         </motion.b> Business
                     </h1>
