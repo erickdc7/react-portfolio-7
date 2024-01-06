@@ -24,7 +24,8 @@ const Services = () => {
             className="services"
             variants={variants}
             initial="initial"
-            animate="animate"
+            //animate="animate"
+            whileInView="animate"
         >
             <motion.div className="textContainer" variants={variants}>
                 <p>
