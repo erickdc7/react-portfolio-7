@@ -64,5 +64,9 @@
     .listContainer {
         flex: 2;
         display: flex;
+
+        .box {
+            padding: 50px;
+        }
     }
 }
