@@ -29,7 +29,9 @@ const Services = () => {
             </motion.div>
 
             <motion.div className="listContainer">
-                <div className="box"></div>
+                <div className="box">
+                    <h2>Branding</h2>
+                </div>
             </motion.div>
         </motion.div>
     )
