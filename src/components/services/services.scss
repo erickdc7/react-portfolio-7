@@ -48,6 +48,16 @@
                 font-size: 90px;
                 font-weight: 100;
             }
+
+            button {
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                background-color: orange;
+                border: none;
+                font-size: 24px;
+                cursor: pointer;
+            }
         }
     }
 
