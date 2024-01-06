@@ -45,7 +45,7 @@
             }
 
             h1 {
-                font-size: 90px;
+                font-size: 80px;
                 font-weight: 100;
             }
 
@@ -68,7 +68,8 @@
         margin: auto;
 
         .box {
-            padding: 50px;
+            padding: 28px;
+            border: 0.5px solid gray;
         }
     }
 }
