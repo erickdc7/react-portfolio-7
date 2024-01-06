@@ -29,22 +29,22 @@ const Services = () => {
             </motion.div>
 
             <motion.div className="listContainer">
-                <motion.div className="box">
+                <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
                     <h2>Branding</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui odit alias asperiores quibusdam totam consequuntur? Nesciunt velit iste at!</p>
                     <button>Go</button>
                 </motion.div>
-                <motion.div className="box">
+                <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
                     <h2>Branding</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui odit alias asperiores quibusdam totam consequuntur? Nesciunt velit iste at!</p>
                     <button>Go</button>
                 </motion.div>
-                <motion.div className="box">
+                <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
                     <h2>Branding</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui odit alias asperiores quibusdam totam consequuntur? Nesciunt velit iste at!</p>
                     <button>Go</button>
                 </motion.div>
-                <motion.div className="box">
+                <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
                     <h2>Branding</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui odit alias asperiores quibusdam totam consequuntur? Nesciunt velit iste at!</p>
                     <button>Go</button>
