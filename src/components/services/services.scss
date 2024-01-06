@@ -7,6 +7,10 @@
 
     .textContainer {
         flex: 1;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        gap: 20px;
     }
 
     .titleContainer {
