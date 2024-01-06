@@ -33,6 +33,10 @@
         align-items: center;
 
         .title {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
             img {
                 width: 300px;
                 height: 100px;
