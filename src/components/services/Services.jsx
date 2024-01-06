@@ -20,6 +20,8 @@ const variants = {
 }
 
 const Services = () => {
+    const ref = useRef()
+
     return (
         <motion.div
             className="services"
