@@ -70,6 +70,9 @@
         .box {
             padding: 28px;
             border: 0.5px solid gray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
     }
 }
