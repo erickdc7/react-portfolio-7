@@ -20,7 +20,12 @@ const variants = {
 
 const Services = () => {
     return (
-        <motion.div className="services" variants={variants}>
+        <motion.div
+            className="services"
+            variants={variants}
+            initial="initial"
+            animate="animate"
+        >
             <motion.div className="textContainer">
                 <p>
                     I focus on helping your brand grow <br />
