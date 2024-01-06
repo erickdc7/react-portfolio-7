@@ -54,7 +54,9 @@ const Services = () => {
 
                 <div className="title">
                     <h1>
-                        <motion.b>For your</motion.b> Business
+                        <motion.b>
+                            For your
+                        </motion.b> Business
                     </h1>
                     <button>WHAT WE DO?</button>
                 </div>
