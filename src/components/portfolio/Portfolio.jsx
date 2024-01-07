@@ -37,7 +37,13 @@ const Single = ({ item }) => {
 
 const Portfolio = () => {
     return (
-        <div className="portfolio">Portfolio</div>
+        <div className="portfolio">
+            {
+                items.map(item => (
+                    <Single item={item} key={item.id} />
+                ))
+            }
+        </div>
     )
 }
 
