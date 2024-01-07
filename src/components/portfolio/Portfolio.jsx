@@ -1,6 +1,6 @@
 import "./portfolio.scss"
 import { useRef } from "react"
-import { motion, useScroll, useSpring } from "framer-motion"
+import { motion, useScroll, useSpring, useTransform } from "framer-motion"
 
 const items = [
     {
@@ -35,6 +35,7 @@ const Single = ({ item }) => {
     const { scrollYProgress } = useScroll({
         target: ref,
     })
+
 
     return (
         <section ref={ref}>
