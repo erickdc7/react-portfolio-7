@@ -27,6 +27,14 @@ const items = [
     },
 ]
 
+const Single = ({ item }) => {
+    return (
+        <section>
+            {item.title}
+        </section>
+    )
+}
+
 const Portfolio = () => {
     return (
         <div className="portfolio">Portfolio</div>
