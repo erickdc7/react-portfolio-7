@@ -39,6 +39,7 @@ const Single = ({ item }) => {
                 <div className="textContainer">
                     <h2>{item.title}</h2>
                     <p>{item.desc}</p>
+                    <button>See Demo</button>
                 </div>
             </div>
         </section>
