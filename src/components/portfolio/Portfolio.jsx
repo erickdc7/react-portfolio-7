@@ -34,7 +34,9 @@ const Single = ({ item }) => {
 
     return (
         <section ref={ref}>
-            {item.title}
+            <div className="container">
+
+            </div>
         </section>
     )
 }
