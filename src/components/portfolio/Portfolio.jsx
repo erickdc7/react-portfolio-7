@@ -32,6 +32,10 @@ const items = [
 const Single = ({ item }) => {
     const ref = useRef()
 
+    const { scrollYProgress } = useScroll({
+        target: ref,
+    })
+
     return (
         <section ref={ref}>
             <div className="container">
