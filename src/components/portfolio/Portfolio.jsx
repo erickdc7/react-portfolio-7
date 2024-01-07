@@ -37,7 +37,7 @@ const Single = ({ item }) => {
             <div className="container">
                 <img src={item.img} alt="" />
                 <div className="textContainer">
-
+                    <h2>{item.title}</h2>
                 </div>
             </div>
         </section>
