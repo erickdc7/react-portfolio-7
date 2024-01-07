@@ -37,6 +37,8 @@ const Single = ({ item }) => {
 }
 
 const Portfolio = () => {
+    const { scrollYProgress } = useScroll()
+
     return (
         <div className="portfolio">
             <div className="progress">
