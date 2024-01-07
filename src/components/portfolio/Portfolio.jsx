@@ -40,6 +40,7 @@ const Portfolio = () => {
         <div className="portfolio">
             <div className="progress">
                 <h1>Featured Works</h1>
+                <div className="progressBar"></div>
             </div>
             {
                 items.map(item => (
