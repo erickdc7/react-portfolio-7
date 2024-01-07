@@ -33,7 +33,7 @@ const Single = ({ item }) => {
     const ref = useRef()
 
     return (
-        <section>
+        <section ref={ref}>
             {item.title}
         </section>
     )
