@@ -38,6 +38,9 @@ const Single = ({ item }) => {
 const Portfolio = () => {
     return (
         <div className="portfolio">
+            <div className="progress">
+
+            </div>
             {
                 items.map(item => (
                     <Single item={item} key={item.id} />
