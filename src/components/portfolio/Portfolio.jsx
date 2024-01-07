@@ -30,6 +30,8 @@ const items = [
 ]
 
 const Single = ({ item }) => {
+    const ref = useRef()
+
     return (
         <section>
             {item.title}
