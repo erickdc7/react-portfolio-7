@@ -35,7 +35,7 @@ const Single = ({ item }) => {
     return (
         <section ref={ref}>
             <div className="container">
-
+                <img src={item.img} alt="" />
             </div>
         </section>
     )
