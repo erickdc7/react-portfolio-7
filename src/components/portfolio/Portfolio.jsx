@@ -36,6 +36,9 @@ const Single = ({ item }) => {
         <section ref={ref}>
             <div className="container">
                 <img src={item.img} alt="" />
+                <div className="textContainer">
+
+                </div>
             </div>
         </section>
     )
