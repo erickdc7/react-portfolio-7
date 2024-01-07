@@ -43,7 +43,7 @@ const Portfolio = () => {
     const { scrollYProgress } = useScroll()
 
     return (
-        <div className="portfolio">
+        <div className="portfolio" ref={ref}>
             <div className="progress">
                 <h1>Featured Works</h1>
                 <div className="progressBar"></div>
