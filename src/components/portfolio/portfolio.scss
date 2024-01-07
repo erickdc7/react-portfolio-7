@@ -5,11 +5,14 @@
         position: sticky;
         top: 0;
         left: 0;
-        padding-top: 50px;
+        padding-top: 30px;
         text-align: center;
         color: orange;
         font-size: 36px;
 
-        .progressBar {}
+        .progressBar {
+            height: 10px;
+            background-color: white;
+        }
     }
 }
