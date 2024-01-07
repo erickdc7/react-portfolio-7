@@ -39,7 +39,7 @@ const Portfolio = () => {
     return (
         <div className="portfolio">
             <div className="progress">
-
+                <h1>Featured Works</h1>
             </div>
             {
                 items.map(item => (
