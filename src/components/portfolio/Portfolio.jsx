@@ -38,6 +38,8 @@ const Single = ({ item }) => {
 }
 
 const Portfolio = () => {
+    const ref = useRef()
+
     const { scrollYProgress } = useScroll()
 
     return (
