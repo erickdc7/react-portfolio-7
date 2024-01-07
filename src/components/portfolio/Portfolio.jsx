@@ -40,7 +40,10 @@ const Single = ({ item }) => {
 const Portfolio = () => {
     const ref = useRef()
 
-    const { scrollYProgress } = useScroll()
+    const { scrollYProgress } = useScroll({
+        target: ref,
+        offset: ["end end", "start start"]
+    })
 
     return (
         <div className="portfolio" ref={ref}>
