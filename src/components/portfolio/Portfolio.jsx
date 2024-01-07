@@ -38,6 +38,7 @@ const Single = ({ item }) => {
                 <img src={item.img} alt="" />
                 <div className="textContainer">
                     <h2>{item.title}</h2>
+                    <p>{item.desc}</p>
                 </div>
             </div>
         </section>
