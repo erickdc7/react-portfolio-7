@@ -1,5 +1,5 @@
 import "./portfolio.scss"
-import { motion } from "framer-motion"
+import { motion, useScroll } from "framer-motion"
 
 const items = [
     {
