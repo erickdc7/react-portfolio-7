@@ -31,9 +31,10 @@
             gap: 50px;
 
             .imageContainer {
+                flex: 1;
+                height: 50%;
+
                 img {
-                    flex: 1;
-                    height: 50%;
                     object-fit: cover;
                 }
             }
