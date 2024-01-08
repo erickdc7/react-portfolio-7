@@ -23,6 +23,8 @@
 
         img {
             flex: 1;
+            height: 50%;
+            object-fit: cover;
         }
 
         .textContainer {
