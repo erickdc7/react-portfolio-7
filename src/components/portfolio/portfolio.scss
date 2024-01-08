@@ -30,10 +30,12 @@
             display: flex;
             gap: 50px;
 
-            img {
-                flex: 1;
-                height: 50%;
-                object-fit: cover;
+            .imageContainer {
+                img {
+                    flex: 1;
+                    height: 50%;
+                    object-fit: cover;
+                }
             }
 
             .textContainer {
