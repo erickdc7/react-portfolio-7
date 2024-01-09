@@ -11,7 +11,7 @@ const Contact = () => {
                 </div>
                 <div className="item">
                     <h2>Address</h2>
-                    <span>Hello Street New York</span>
+                    <span>123 Hello Street New York</span>
                 </div>
                 <div className="item">
                     <h2>Phone</h2>
