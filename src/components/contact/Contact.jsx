@@ -9,6 +9,14 @@ const Contact = () => {
                     <h2>Mail</h2>
                     <span>hello@react.dev</span>
                 </div>
+                <div className="item">
+                    <h2>Mail</h2>
+                    <span>hello@react.dev</span>
+                </div>
+                <div className="item">
+                    <h2>Mail</h2>
+                    <span>hello@react.dev</span>
+                </div>
             </div>
 
             <div className="formContainer"></div>
