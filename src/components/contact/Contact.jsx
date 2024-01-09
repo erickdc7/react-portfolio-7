@@ -21,7 +21,7 @@ const Contact = () => {
 
             <div className="formContainer">
                 <form>
-
+                    <input type="text" placeholder="Name" />
                 </form>
             </div>
         </div>
