@@ -7,6 +7,7 @@ const Contact = () => {
                 <h1>Let&apos;s work together</h1>
                 <div className="item">
                     <h2>Mail</h2>
+                    <span>hello@react.dev</span>
                 </div>
             </div>
 
