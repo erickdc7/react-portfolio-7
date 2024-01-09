@@ -19,7 +19,7 @@ const variants = {
 const Contact = () => {
     return (
         <motion.div className="contact" variants={variants}>
-            <div className="textContainer">
+            <motion.div className="textContainer">
                 <h1>Let&apos;s work together</h1>
                 <div className="item">
                     <h2>Mail</h2>
@@ -33,7 +33,7 @@ const Contact = () => {
                     <h2>Phone</h2>
                     <span>+1 234 5678</span>
                 </div>
-            </div>
+            </motion.div>
 
             <div className="formContainer">
                 <form>
