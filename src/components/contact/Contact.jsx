@@ -14,7 +14,7 @@ const Contact = () => {
                     <span>Hello Street New York</span>
                 </div>
                 <div className="item">
-                    <h2>Mail</h2>
+                    <h2>Phone</h2>
                     <span>hello@react.dev</span>
                 </div>
             </div>
