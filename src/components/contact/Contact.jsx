@@ -18,6 +18,8 @@ const variants = {
 }
 
 const Contact = () => {
+    const ref = useRef()
+
     return (
         <motion.div
             className="contact"
