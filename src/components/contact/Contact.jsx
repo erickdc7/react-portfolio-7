@@ -45,7 +45,7 @@ const Contact = () => {
                     className="phoneSvg"
                     initial={{ opacity: 1 }}
                     whileInView={{ opacity: 0 }}
-                    transition={{ duration: 3 }}
+                    transition={{ delay: 3, duration: 1 }}
                 >
                     <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.5 2C13.5 2 15.8335 2.21213 18.8033 5.18198C21.7731 8.15183 21.9853 10.4853 21.9853 10.4853" stroke="#1C274C" strokeWidth="1.5" strokeLinecap="round" />
