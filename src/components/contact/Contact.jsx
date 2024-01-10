@@ -57,7 +57,7 @@ const Contact = () => {
                 <motion.form
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    transition={{ delay: 3, duration: 1 }}
+                    transition={{ delay: 4, duration: 1 }}
                 >
                     <input type="text" placeholder="Name" />
                     <input type="email" required placeholder="Email" />
