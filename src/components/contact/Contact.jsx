@@ -20,6 +20,8 @@ const variants = {
 const Contact = () => {
     const ref = useRef()
 
+    const isInView = useInView(ref, { margin: "-100px" })
+
     return (
         <motion.div
             ref={ref}
