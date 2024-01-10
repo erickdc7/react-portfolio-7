@@ -1,5 +1,5 @@
 import "./contact.scss"
-import { motion } from "framer-motion"
+import { motion, useInView } from "framer-motion"
 
 const variants = {
     initial: {
