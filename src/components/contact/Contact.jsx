@@ -21,10 +21,10 @@ const Contact = () => {
         <motion.div className="contact" variants={variants}>
             <motion.div className="textContainer" variants={variants}>
                 <motion.h1>Let&apos;s work together</motion.h1>
-                <div className="item">
+                <motion.div className="item">
                     <h2>Mail</h2>
                     <span>hello@react.dev</span>
-                </div>
+                </motion.div>
                 <div className="item">
                     <h2>Address</h2>
                     <span>123 Hello Street New York</span>
