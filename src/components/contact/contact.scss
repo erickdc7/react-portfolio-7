@@ -25,6 +25,10 @@
     .formContainer {
         flex: 1;
 
+        .phoneSvg {
+            background-color: rebeccapurple;
+        }
+
         form {
             display: flex;
             flex-direction: column;
