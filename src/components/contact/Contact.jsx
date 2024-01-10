@@ -20,7 +20,7 @@ const Contact = () => {
     return (
         <motion.div className="contact" variants={variants}>
             <motion.div className="textContainer" variants={variants}>
-                <motion.h1>Let&apos;s work together</motion.h1>
+                <motion.h1 variants={variants}>Let&apos;s work together</motion.h1>
                 <motion.div className="item">
                     <h2>Mail</h2>
                     <span>hello@react.dev</span>
