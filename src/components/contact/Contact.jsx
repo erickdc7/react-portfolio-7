@@ -22,6 +22,7 @@ const Contact = () => {
 
     return (
         <motion.div
+            ref={ref}
             className="contact"
             variants={variants}
             initial="initial"
