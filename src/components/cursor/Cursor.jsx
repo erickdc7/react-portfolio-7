@@ -2,7 +2,7 @@ import "./cursor.scss"
 
 const Cursor = () => {
     return (
-        <div className="cursor">Cursor</div>
+        <div className="cursor"></div>
     )
 }
 
