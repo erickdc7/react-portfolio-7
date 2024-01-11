@@ -10,6 +10,7 @@ import Services from "./components/services/Services";
 const App = () => {
   return (
     <div>
+      <Cursor />
       <section id="Homepage">
         <Navbar />
         <Hero />
@@ -27,7 +28,6 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-      <Cursor />
     </div>
   );
 };
