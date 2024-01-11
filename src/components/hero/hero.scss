@@ -65,6 +65,11 @@
         position: absolute;
         top: 0;
         right: 0;
+
+        @include mobile {
+            height: 50%;
+            width: 100%;
+        }
     }
 
     .slidingTextContainer {
