@@ -13,7 +13,7 @@ const App = () => {
       <Cursor />
       <section id="Homepage">
         <Navbar />
-        {/* <Hero /> */}
+        <Hero />
       </section>
       {/* <section id="Services">
         <Parallax type="services" />
