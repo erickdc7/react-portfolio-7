@@ -1,4 +1,5 @@
 import "./cursor.scss"
+import { useState } from "react"
 
 const Cursor = () => {
     return (
