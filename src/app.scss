@@ -36,3 +36,9 @@ section {
         @content;
     }
 }
+
+@mixin desktop {
+    @media (max-width: 1366px) {
+        @content;
+    }
+}
