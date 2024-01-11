@@ -18,7 +18,7 @@ const Cursor = () => {
     })
 
     return (
-        <div className="cursor"></div>
+        <motion.div className="cursor"></motion.div>
     )
 }
 
