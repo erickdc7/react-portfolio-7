@@ -15,7 +15,7 @@ const Cursor = () => {
         return () => {
             window.removeEventListener("mousemove", mouseMove)
         }
-    })
+    }, [])
 
     return (
         <motion.div
