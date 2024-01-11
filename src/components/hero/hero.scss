@@ -32,6 +32,10 @@
 
             h1 {
                 font-size: 73px;
+
+                @include mobile {
+                    font-size: 36px;
+                }
             }
 
             .buttons {
