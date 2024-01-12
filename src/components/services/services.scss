@@ -88,6 +88,10 @@
                 border: none;
                 font-size: 24px;
                 cursor: pointer;
+
+                @include mobile {
+                    font-size: 16px;
+                }
             }
         }
     }
