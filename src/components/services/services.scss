@@ -14,6 +14,12 @@
         align-items: center;
         gap: 20px;
 
+        @include mobile {
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
         p {
             font-weight: 200;
             font-size: 20px;
