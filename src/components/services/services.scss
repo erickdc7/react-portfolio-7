@@ -116,6 +116,12 @@
             flex-direction: column;
             justify-content: space-between;
 
+            p {
+                @include mobile {
+                    display: none;
+                }
+            }
+
             button {
                 padding: 10px;
                 background-color: orange;
