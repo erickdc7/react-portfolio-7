@@ -131,6 +131,10 @@
                 background-color: orange;
                 border: none;
                 cursor: pointer;
+
+                @include mobile {
+                    background-color: transparent;
+                }
             }
         }
     }
