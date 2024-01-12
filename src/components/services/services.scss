@@ -53,6 +53,10 @@
             align-items: center;
             gap: 50px;
 
+            @include mobile {
+                flex-direction: column;
+            }
+
             img {
                 width: 300px;
                 height: 100px;
