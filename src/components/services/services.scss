@@ -31,6 +31,10 @@
             width: 350px;
             border: none;
             border-top: 0.5px solid gray;
+
+            @include mobile {
+                width: 300px;
+            }
         }
     }
 
