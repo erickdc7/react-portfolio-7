@@ -116,6 +116,10 @@
             flex-direction: column;
             justify-content: space-between;
 
+            @include mobile {
+                border: none;
+            }
+
             p {
                 @include mobile {
                     display: none;
