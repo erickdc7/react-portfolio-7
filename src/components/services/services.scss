@@ -64,6 +64,10 @@
                 height: 100px;
                 border-radius: 50px;
                 object-fit: cover;
+
+                @include mobile {
+                    width: 200px;
+                }
             }
 
             h1 {
