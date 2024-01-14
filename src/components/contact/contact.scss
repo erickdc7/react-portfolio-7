@@ -75,6 +75,10 @@
                 background-color: orange;
                 cursor: pointer;
                 font-weight: 500;
+
+                @include mobile {
+                    padding: 10px;
+                }
             }
         }
     }
