@@ -40,6 +40,10 @@
             justify-content: center;
             gap: 50px;
 
+            @include mobile {
+                flex-direction: column;
+            }
+
             .imageContainer {
                 flex: 1;
                 height: 50%;
