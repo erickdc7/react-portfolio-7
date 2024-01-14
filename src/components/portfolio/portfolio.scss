@@ -79,6 +79,10 @@
 
                 h2 {
                     font-size: 50px;
+
+                    @include mobile {
+                        font-size: 36px;
+                    }
                 }
 
                 p {
