@@ -44,7 +44,11 @@
     .formContainer {
         flex: 1;
         position: relative;
-        width: 100%;
+
+        @include mobile {
+            padding: 50px;
+            width: 100%;
+        }
 
         .phoneSvg {
             stroke: orange;
