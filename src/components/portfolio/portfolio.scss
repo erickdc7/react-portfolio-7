@@ -70,6 +70,13 @@
                 flex-direction: column;
                 gap: 30px;
 
+                @include mobile {
+                    transform: none !important;
+                    padding: 10px;
+                    align-items: center;
+                    text-align: center;
+                }
+
                 h2 {
                     font-size: 50px;
                 }
